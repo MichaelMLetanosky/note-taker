@@ -1,5 +1,4 @@
 const notes = require('express').Router();
-const { v4: uuidv4 } = require('uuid');
 const {
   readFromFile,
   readAndAppend,
@@ -8,6 +7,7 @@ const {
 
 // GET Route for retrieving all notes
 notes.get('/', (req, res) => {
+  console.log(`get request recieved`)
   readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
 });
 
