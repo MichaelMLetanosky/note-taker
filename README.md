@@ -1,3 +1,11 @@
+# Note Taker
+
+## Description
+
+  A backend for a given front end that allows a user to create and view notes from a webpage to a server db.
+
+  Github: https://github.com/MichaelMLetanosky/note-taker
+
 # 11 Express.js: Note Taker
 
 ## Your Task
